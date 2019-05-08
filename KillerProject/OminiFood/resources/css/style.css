@@ -32,19 +32,20 @@ section {
 }
 
 /* ---------HEADING-------- */
-h1, h2 {
-    /* wrt to html font-size */
+h1,
+h2,
+h3 {
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 h1 {
-    margin: 0px;
+    margin-top: 0;
+    margin-bottom: 20px;
     color: #fff;
     font-size: 240%;
     word-spacing: 4px;
-    margin-bottom: 20px;
+    letter-spacing: 1px;
 }
 
 h2 {
@@ -52,17 +53,24 @@ h2 {
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
+    letter-spacing: 1px;
 }
 
-h2::after {
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+h2:after {
     display: block;
     height: 2px;
-    color: #e67e22;
+    background-color: #e67e22;
     content: " ";
     width: 100px;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
+
 
 /* ------------------------ */
 /* HEADER */
